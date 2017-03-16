@@ -7,8 +7,8 @@ brown: #5B533B
 green blue light: #BBFFB8
 */
 body {
-    background-color:lightgrey;
-    color:#AB92E8;
+    background-color:skyblue;
+    color:white;
 }
 #header {
     background-color:none;
@@ -24,7 +24,7 @@ body {
 }
 
 #nav {
-     background-color:lightcyan;
+     background-color:aliceblue;
     min-height: 80px;
     font-family:'lato', sans-serif;
     height: auto;
@@ -37,15 +37,15 @@ body {
 
 #nav > ul > button {
     min-width:178px;
-    color:#AB92E8;
-    background-color:black;
+    color:black;
+    background-color:lightgreen;
     border:none;
     padding: 15px 32px;
     transition: background-color .25s;
-    border-bottom: 2px solid lightcyan;
+    border-bottom: 2px solid aliceblue;
 }
 #nav > ul > button:hover {
-   background-color:darkturquoise;
+   background-color:springgreen;
 }
 
 
@@ -135,18 +135,19 @@ body {
     text-align:center;
 }
 
-#latest-work {
+#Types-of-Turtles {
     list-style-type: none;   
 }
 
-#latest-work > li {
+#Types-of-Turtles > li {
     padding-top:15px;
     padding-bottom:15px;
     width:100%;
     border-bottom:1px black solid;
 }
 
-#latest-work > li:before {
+#Types-of-Turtles
+> li:before {
     content:'';
     border-color:transparent black;
     border-style: solid; 
@@ -161,8 +162,8 @@ body {
 
 #favorite-sites {
     background-image: url(image/turtletypes.jpg);
-    border-top:5px lightcyan solid;
-    border-bottom:5px lightcyan solid;
+    border-top:5px aliceblue solid;
+    border-bottom:5px aliceblue solid;
     text-align: center;
     
 }
@@ -178,7 +179,7 @@ body {
 
 
 footer{
-    background-color:lightcyan;
+    background-color:aliceblue;
     text-align:center;
     font-family: 'lato', sans-serif;
     min-height: 100px;
